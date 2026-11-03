@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindCare | Кіру</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="navbar">
+        <a href="index.html" class="logo">MindCare 🌿</a>
+        <nav>
+            <a href="index.html">Басты бет</a>
+            <a href="support.html">Қолдау</a>
+        </nav>
+    </div>
+</header>
+
+<section class="auth-section">
+    <div class="auth-card">
+        <div class="card-icon">💜</div>
+        <h1>Қош келдің!</h1>
+        <p>MindCare платформасына кіру</p>
+
+        <form id="loginForm">
+            <label>Аты-жөнің</label>
+            <input type="text" id="name"
+                   placeholder="Аты-жөніңді енгіз" required>
+
+            <label>Email</label>
+            <input type="email" id="email"
+                   placeholder="example@gmail.com" required>
+
+            <label>Құпиясөз</label>
+            <input type="password" id="password"
+                   placeholder="Құпиясөзді енгіз" required>
+
+            <button type="submit" class="main-button full-button">
+                Кіру
+            </button>
+        </form>
+
+        <p id="loginMessage"></p>
+
+        <a href="index.html" class="back-link">
+            ← Басты бетке қайту
+        </a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 MindCare</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
